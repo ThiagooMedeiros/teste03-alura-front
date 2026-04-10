@@ -16,6 +16,12 @@ header {
   height: 64px;
 }
 
+/*~ seletor de irmandade*/
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
 nav {
   display: none;
 }
