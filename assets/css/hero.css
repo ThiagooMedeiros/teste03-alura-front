@@ -1,0 +1,56 @@
+.hero-img {
+  height: 400px;
+  width: 100%;
+
+  background-image: url("../images/mobile-hero-image.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-bottom: 88px;
+}
+
+.hero-description {
+  text-align: center;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 1.5;
+
+  padding: 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+
+    background-image: url("../images/tablet-hero-image.jpg");
+
+    background-repeat: no-repeat;
+  }
+
+  .hero-description {
+    font-size: 32px;
+    padding: 0 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    background-image: url("../images/desk-hero-image.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 104px;
+  }
+
+  .hero-description {
+    padding: 0 120px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero-description {
+    padding: 0 160px;
+  }
+}
