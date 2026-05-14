@@ -24,6 +24,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--text-primary-color);
 }
 
 a {
@@ -33,4 +34,31 @@ a {
 
 ul {
   list-style: none;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
