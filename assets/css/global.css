@@ -57,8 +57,28 @@ ul {
   margin-bottom: 32px;
 }
 
+.button {
+  display: inline-block;
+  width: 280px;
+  height: 64px;
+
+  font-size: 20px;
+  line-height: 64px; /* ao centro sem display flex */
+  color: var(--text-secondary-color);
+  font-weight: var(--titles-weight);
+
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+}
+
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
   }
 }
