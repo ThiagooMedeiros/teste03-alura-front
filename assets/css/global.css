@@ -27,6 +27,10 @@ body {
   color: var(--text-primary-color);
 }
 
+section {
+  margin-bottom: 88px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -78,6 +82,10 @@ ul {
 }
 
 @media screen and (min-width: 1024px) {
+  section {
+    margin-bottom: 104px;
+  }
+
   .section-title hr {
     margin-bottom: 64px;
   }
