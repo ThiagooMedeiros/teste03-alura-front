@@ -10,12 +10,6 @@
   margin: 0 auto;
 }
 
-.item header {
-  display: block;
-  padding: 0;
-  background-color: transparent;
-  position: static;
-}
 .item header .img-item {
   width: 312px;
   height: 360px;

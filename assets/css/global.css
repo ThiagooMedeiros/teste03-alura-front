@@ -28,7 +28,11 @@ body {
 }
 
 section {
-  margin-bottom: 88px;
+  width: 312px;
+  margin: 0 auto 88px;
+}
+section.hero {
+  width: 100%;
 }
 
 a {
@@ -41,9 +45,8 @@ ul {
 }
 
 .section-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 280px;
+  margin: 0 auto;
 }
 
 .section-title h2 {
@@ -58,12 +61,13 @@ ul {
   height: 4px;
   background-color: var(--secondary-color);
   border: none;
+  margin: 0 auto;
   margin-bottom: 32px;
 }
 
 .button {
   display: inline-block;
-  width: 280px;
+  min-width: 280px;
   height: 64px;
 
   text-align: center;
@@ -77,6 +81,14 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+  section {
+    width: 648px;
+  }
+
+  .section-title {
+    width: 100%;
+  }
+
   .section-title h2 {
     font-size: 32px;
   }
@@ -84,7 +96,8 @@ ul {
 
 @media screen and (min-width: 1024px) {
   section {
-    margin-bottom: 104px;
+    width: 900px;
+    margin: 0 auto 104px;
   }
 
   .section-title hr {
@@ -92,5 +105,11 @@ ul {
   }
   .button:hover {
     background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }

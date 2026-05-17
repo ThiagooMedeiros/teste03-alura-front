@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
 
   padding: 38px 48px;
@@ -26,7 +26,7 @@ input[type="checkbox"]:checked ~ nav {
   display: block;
 
   position: absolute;
-  top: 100%; /*Usa o tamanho total do header*/
+  top: 100%; /*Usa o tamanho total do .main-header*/
   left: 0;
 
   padding: 0 48px;
@@ -76,7 +76,7 @@ nav .list-links {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding: 38px 120px;
   }
 
@@ -94,7 +94,7 @@ nav .list-links {
 }
 
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 38px 160px;
   }
 }
