@@ -1,0 +1,63 @@
+.text-payments p {
+  margin-bottom: 24px;
+}
+
+.img-payments {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 460px;
+}
+
+.images.mala {
+  height: 254px;
+  background-image: url(../images/gallery1-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: center;*/
+}
+.images.passaporte {
+  height: 254px;
+  background-image: url(../images/gallery2-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: center;*/
+}
+.images.pessoas {
+  grid-column: span 2;
+
+  height: 182px;
+  background-image: url(../images/gallery3-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*background-position: center bottom;*/
+}
+
+@media screen and (min-width: 768px) {
+  .images.mala {
+    background-image: url(../images/gallery1-tablet.png);
+  }
+  .images.passaporte {
+    background-image: url(../images/gallery2-tablet.png);
+  }
+  .images.pessoas {
+    background-image: url(../images/gallery3-tablet.png);
+    background-position: center bottom;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content-section {
+    display: flex;
+  }
+
+  .text-payments {
+    width: 384px;
+    margin-right: 24px;
+  }
+
+  .img-payments {
+    width: 790px;
+  }
+}
