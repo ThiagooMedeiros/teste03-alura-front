@@ -8,7 +8,6 @@
 
 .footer-page {
   background-color: var(--background-tertiary-color);
-  color: var(--text-secondary-color);
 
   display: flex;
   flex-direction: column;
@@ -16,6 +15,14 @@
   text-align: center;
 
   padding: 32px 24px;
+}
+
+.footer-page p {
+  color: var(--text-secondary-color);
+
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
 }
 
 .content-footer {
@@ -41,6 +48,8 @@
   }
 
   .footer-page p {
+    font-size: 20px;
+    line-height: 32px;
     text-align: start;
   }
 
@@ -59,5 +68,9 @@
     flex-direction: row;
     justify-content: space-around;
     text-align: start;
+  }
+
+  .footer-page .social-media {
+    text-align: center;
   }
 }
