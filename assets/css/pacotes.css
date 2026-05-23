@@ -1,3 +1,7 @@
+.list-links a.active {
+  text-decoration: underline;
+}
+
 .hero-img.pacotes {
   height: 460px;
   background-image: url("../images/hero-conheca-o-japao-mobile.jpg");
