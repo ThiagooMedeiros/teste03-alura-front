@@ -27,6 +27,42 @@
   font-weight: var(--text-weight);
   line-height: 32px;
 }
+/*---------------------------------------------------------------------------*/
+.price.pagina-pacotes {
+  font-size: 40px;
+  font-weight: var(--titles-weight);
+}
+
+.button.pagina-pacotes {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.images.casa {
+  height: 254px;
+  background-image: url(../images/casa-japao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: center;*/
+}
+.images.cidade {
+  height: 254px;
+  background-image: url(../images/cidade-japao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: center;*/
+}
+.images.pessoa {
+  grid-column: span 2;
+
+  height: 182px;
+  background-image: url(../images/pessoa-roupa-branca.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*background-position: center bottom;*/
+}
 
 @media screen and (min-width: 768px) {
   .hero-img.pacotes {
@@ -39,6 +75,21 @@
     font-size: 32px;
     line-height: 150%;
   }
+
+  .button.pagina-pacotes {
+    display: none;
+  }
+
+  .images.casa {
+    background-image: url(../images/casa-japao-tablet.jpg);
+  }
+  .images.cidade {
+    background-image: url(../images/cidade-japao-tablet.jpg);
+  }
+  .images.pessoa {
+    background-image: url(../images/pessoa-roupa-branca-tablet.jpg);
+    background-position: center bottom;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -46,5 +97,11 @@
     background-image: url("../images/banner-hero-conheca-o-japao-desk.jpg");
 
     padding: 158px 740px 158px 120px;
+  }
+
+  .content-section.pagina-pacotes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
