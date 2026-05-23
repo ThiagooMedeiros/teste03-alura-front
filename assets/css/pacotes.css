@@ -9,6 +9,10 @@
   color: var(--text-secondary-color);
 }
 
+.hero-text-content {
+  max-width: 312px;
+}
+
 .title-hero.pacotes {
   font-size: 48px;
   font-weight: var(--titles-weight);
@@ -75,6 +79,10 @@
     padding: 210px 69px 108px 120px;
   }
 
+  .hero-text-content {
+    max-width: 580px;
+  }
+
   .hero-img.pacotes p {
     font-size: 32px;
     line-height: 150%;
@@ -97,6 +105,12 @@
 
   .image-footer.pagina-pacotes {
     background-image: url(../images/image-footer-pacotes-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img.pacotes {
+    padding: 210px 300px 108px 120px;
   }
 }
 
