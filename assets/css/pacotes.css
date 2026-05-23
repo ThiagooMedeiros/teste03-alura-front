@@ -64,6 +64,10 @@
   /*background-position: center bottom;*/
 }
 
+.image-footer.pagina-pacotes {
+  background-image: url(../images/image-footer-pacotes-mobile.jpg);
+}
+
 @media screen and (min-width: 768px) {
   .hero-img.pacotes {
     height: 620px;
@@ -89,6 +93,10 @@
   .images.pessoa {
     background-image: url(../images/pessoa-roupa-branca-tablet.jpg);
     background-position: center bottom;
+  }
+
+  .image-footer.pagina-pacotes {
+    background-image: url(../images/image-footer-pacotes-tablet.jpg);
   }
 }
 
