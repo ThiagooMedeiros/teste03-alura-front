@@ -1,0 +1,50 @@
+.hero-img.pacotes {
+  height: 460px;
+  background-image: url("../images/hero-conheca-o-japao-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+
+  padding: 65px 24px;
+
+  color: var(--text-secondary-color);
+}
+
+.title-hero.pacotes {
+  font-size: 48px;
+  font-weight: var(--titles-weight);
+  margin-bottom: 16px;
+}
+.hero-img.pacotes hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+
+  border: none;
+  margin-bottom: 32px;
+}
+.hero-img.pacotes p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img.pacotes {
+    height: 620px;
+
+    padding: 210px 69px 108px 120px;
+  }
+
+  .hero-img.pacotes p {
+    font-size: 32px;
+    line-height: 150%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-img.pacotes {
+    background-image: url("../images/banner-hero-conheca-o-japao-desk.jpg");
+
+    padding: 158px 740px 158px 120px;
+  }
+}
